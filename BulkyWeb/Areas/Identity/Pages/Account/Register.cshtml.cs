@@ -2,6 +2,7 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 #nullable disable
 
+using Bulky.DataAccess.Repository.IRepository;
 using Bulky.Models;
 using Bulky.Utility;
 using Microsoft.AspNetCore.Authentication;
@@ -34,6 +35,7 @@ namespace BulkyWeb.Areas.Identity.Pages.Account
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly IUnitOfWork _unitOfWork;
 
         public RegisterModel(
             UserManager<IdentityUser> userManager,
@@ -41,11 +43,13 @@ namespace BulkyWeb.Areas.Identity.Pages.Account
             SignInManager<IdentityUser> signInManager,
             ILogger<RegisterModel> logger,
             IEmailSender emailSender,
-            RoleManager<IdentityRole> roleManager
-            
+            RoleManager<IdentityRole> roleManager,
+            IUnitOfWork unitOfWork
+
             )
-        
+
         {
+            _unitOfWork = unitOfWork;
             _userManager = userManager;
             _userStore = userStore;
             _emailStore = GetEmailStore();
@@ -53,6 +57,7 @@ namespace BulkyWeb.Areas.Identity.Pages.Account
             _logger = logger;
             _emailSender = emailSender;
             _roleManager = roleManager;
+
         }
 
         /// <summary>
@@ -117,29 +122,38 @@ namespace BulkyWeb.Areas.Identity.Pages.Account
             public string? State { get; set; }
             public string? PostalCode { get; set; }
             public string? PhoneNumber { get; set; }
+            public int? CompanyId { get; set; }
+            [ValidateNever]
+            public IEnumerable<SelectListItem> CompanyList { get; set; }
 
         }
 
 
         public async Task OnGetAsync(string returnUrl = null)
         {
-            //populate list 
+            if (!_roleManager.RoleExistsAsync(SD.Role_Customer).GetAwaiter().GetResult())
+            {
+                _roleManager.CreateAsync(new IdentityRole(SD.Role_Customer)).GetAwaiter().GetResult();
+                _roleManager.CreateAsync(new IdentityRole(SD.Role_Employee)).GetAwaiter().GetResult();
+                _roleManager.CreateAsync(new IdentityRole(SD.Role_Admin)).GetAwaiter().GetResult();
+                _roleManager.CreateAsync(new IdentityRole(SD.Role_Company)).GetAwaiter().GetResult();
+            }
+
             Input = new()
             {
                 RoleList = _roleManager.Roles.Select(x => x.Name).Select(i => new SelectListItem
                 {
                     Text = i,
                     Value = i
+                }),
+                CompanyList = _unitOfWork.Company.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
                 })
             };
-            // if not roles already available then seed roles it sont need savrchanges and migrations 
-            if (!_roleManager.RoleExistsAsync(SD.Role_Customer).GetAwaiter().GetResult()) {
-                _roleManager.CreateAsync(new IdentityRole(SD.Role_Customer)).GetAwaiter().GetResult();
-                _roleManager.CreateAsync(new IdentityRole(SD.Role_Employee)).GetAwaiter().GetResult();
-                _roleManager.CreateAsync(new IdentityRole(SD.Role_Admin)).GetAwaiter().GetResult();
-                _roleManager.CreateAsync(new IdentityRole(SD.Role_Company)).GetAwaiter().GetResult();
-            }
-                ReturnUrl = returnUrl;
+
+            ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
         }
 
@@ -160,6 +174,11 @@ namespace BulkyWeb.Areas.Identity.Pages.Account
                 user.PhoneNumber = Input.PhoneNumber;
                 user.Name = Input.Name;
 
+                if (Input.Role == SD.Role_Company)
+                {
+                    user.CompanyId = Input.CompanyId;
+                }
+
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
                 if (result.Succeeded)
@@ -176,7 +195,7 @@ namespace BulkyWeb.Areas.Identity.Pages.Account
                     }
 
 
-                            var userId = await _userManager.GetUserIdAsync(user);
+                    var userId = await _userManager.GetUserIdAsync(user);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                     code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
                     var callbackUrl = Url.Page(
