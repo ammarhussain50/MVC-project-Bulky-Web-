@@ -1,0 +1,148 @@
+﻿@page
+@model RegisterModel
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="row w-100 justify-content-center">
+        <div class="col-lg-7 col-md-9">
+            <div class="card shadow-lg border-0 rounded-4">
+                <div class="card-body p-5">
+
+                    <h2 class="text-center fw-bold mb-2">Create Account</h2>
+                    <p class="text-center text-muted mb-4">Sign up to get started</p>
+
+                    <form id="registerForm"
+                          asp-route-returnUrl="@Model.ReturnUrl"
+                          method="post">
+
+                        <div asp-validation-summary="ModelOnly"
+                             class="text-danger mb-3"
+                             role="alert"></div>
+
+                        <!-- Row 1 -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input asp-for="Input.Name" class="form-control" placeholder=" " />
+                                    <label asp-for="Input.Name">Full Name</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input asp-for="Input.Email" class="form-control" placeholder=" " />
+                                    <label asp-for="Input.Email">Email Address</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Row 2 -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input asp-for="Input.PhoneNumber" class="form-control" placeholder=" " />
+                                    <label asp-for="Input.PhoneNumber">Phone Number</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <select asp-for="Input.Role"
+                                            asp-items="@Model.Input.RoleList"
+                                            class="form-select">
+                                        <option disabled selected>-- select role -- </option>
+                                    </select>
+                                    <label asp-for="Input.Role">Role</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Row 3 -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input asp-for="Input.Password" class="form-control" placeholder=" " />
+                                    <label asp-for="Input.Password">Password</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input asp-for="Input.ConfirmPassword" class="form-control" placeholder=" " />
+                                    <label asp-for="Input.ConfirmPassword">Confirm Password</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Row 4 -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-floating mb-3">
+                                    <input asp-for="Input.StreetAddress" class="form-control" placeholder=" " />
+                                    <label asp-for="Input.StreetAddress">Street Address</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Row 5 -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-floating mb-3">
+                                    <input asp-for="Input.City" class="form-control" placeholder=" " />
+                                    <label asp-for="Input.City">City</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="form-floating mb-3">
+                                    <input asp-for="Input.State" class="form-control" placeholder=" " />
+                                    <label asp-for="Input.State">State</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="form-floating mb-3">
+                                    <input asp-for="Input.PostalCode" class="form-control" placeholder=" " />
+                                    <label asp-for="Input.PostalCode">Postal Code</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="submit"
+                                class="btn btn-primary w-100 py-2 fw-semibold rounded-3 mt-2">
+                            Register
+                        </button>
+                    </form>
+
+                    <div class="text-center mt-4">
+                        <p class="mb-0">
+                            Already have an account?
+                            <a asp-page="./Login" class="fw-semibold text-decoration-none">
+                                Login
+                            </a>
+                        </p>
+                    </div>
+                    @if ((Model.ExternalLogins?.Count ?? 0) == 0)
+                    {
+                        <!-- OR Divider -->
+                        <div class="position-relative my-4 text-center"> <hr /> <span class="position-absolute top-50 start-50 translate-middle px-3 bg-body text-muted small"> OR </span> </div>
+
+                        <div> <p> There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715"> article about setting up this ASP.NET application to support logging in via external services </a>. </p> </div>
+                        <form asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post"> <div class="d-grid gap-2"> @foreach (var provider in Model.ExternalLogins!) {
+                        <button type="submit" class="btn btn-outline-secondary rounded-3" name="provider" value="@provider.Name"> Continue with @provider.DisplayName </button>
+                    }
+ </div> </form>
+  }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

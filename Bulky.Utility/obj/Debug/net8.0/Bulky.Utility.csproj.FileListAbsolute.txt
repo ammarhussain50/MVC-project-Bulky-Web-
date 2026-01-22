@@ -1,0 +1,25 @@
+D:\dev\mvc\project\Bulky\Bulky.Utility\bin\Debug\net8.0\Bulky.Utility.deps.json
+D:\dev\mvc\project\Bulky\Bulky.Utility\bin\Debug\net8.0\Bulky.Utility.dll
+D:\dev\mvc\project\Bulky\Bulky.Utility\bin\Debug\net8.0\Bulky.Utility.pdb
+D:\dev\mvc\project\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev\mvc\project\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.AssemblyInfoInputs.cache
+D:\dev\mvc\project\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.AssemblyInfo.cs
+D:\dev\mvc\project\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.csproj.CoreCompileInputs.cache
+D:\dev\mvc\project\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.sourcelink.json
+D:\dev\mvc\project\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.dll
+D:\dev\mvc\project\Bulky\Bulky.Utility\obj\Debug\net8.0\refint\Bulky.Utility.dll
+D:\dev\mvc\project\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.pdb
+D:\dev\mvc\project\Bulky\Bulky.Utility\obj\Debug\net8.0\ref\Bulky.Utility.dll
+D:\dev\mvc\project\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.csproj.AssemblyReference.cache
+D:\C-sharp folder\Bulky web MVC shazeel wala\BulkyWeb-MVC-main\Bulky.Utility\bin\Debug\net8.0\Bulky.Utility.deps.json
+D:\C-sharp folder\Bulky web MVC shazeel wala\BulkyWeb-MVC-main\Bulky.Utility\bin\Debug\net8.0\Bulky.Utility.dll
+D:\C-sharp folder\Bulky web MVC shazeel wala\BulkyWeb-MVC-main\Bulky.Utility\bin\Debug\net8.0\Bulky.Utility.pdb
+D:\C-sharp folder\Bulky web MVC shazeel wala\BulkyWeb-MVC-main\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.csproj.AssemblyReference.cache
+D:\C-sharp folder\Bulky web MVC shazeel wala\BulkyWeb-MVC-main\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\C-sharp folder\Bulky web MVC shazeel wala\BulkyWeb-MVC-main\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.AssemblyInfoInputs.cache
+D:\C-sharp folder\Bulky web MVC shazeel wala\BulkyWeb-MVC-main\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.AssemblyInfo.cs
+D:\C-sharp folder\Bulky web MVC shazeel wala\BulkyWeb-MVC-main\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.csproj.CoreCompileInputs.cache
+D:\C-sharp folder\Bulky web MVC shazeel wala\BulkyWeb-MVC-main\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.dll
+D:\C-sharp folder\Bulky web MVC shazeel wala\BulkyWeb-MVC-main\Bulky.Utility\obj\Debug\net8.0\refint\Bulky.Utility.dll
+D:\C-sharp folder\Bulky web MVC shazeel wala\BulkyWeb-MVC-main\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.pdb
+D:\C-sharp folder\Bulky web MVC shazeel wala\BulkyWeb-MVC-main\Bulky.Utility\obj\Debug\net8.0\ref\Bulky.Utility.dll
