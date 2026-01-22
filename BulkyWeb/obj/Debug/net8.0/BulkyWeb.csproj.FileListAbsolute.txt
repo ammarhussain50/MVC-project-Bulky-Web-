@@ -588,3 +588,4 @@ D:\C-sharp folder\Bulky web MVC shazeel wala\BulkyWeb-MVC-main\BulkyWeb\obj\Debu
 D:\C-sharp folder\Bulky web MVC shazeel wala\BulkyWeb-MVC-main\BulkyWeb\obj\Debug\net8.0\BulkyWeb.pdb
 D:\C-sharp folder\Bulky web MVC shazeel wala\BulkyWeb-MVC-main\BulkyWeb\obj\Debug\net8.0\BulkyWeb.genruntimeconfig.cache
 D:\C-sharp folder\Bulky web MVC shazeel wala\BulkyWeb-MVC-main\BulkyWeb\obj\Debug\net8.0\ref\BulkyWeb.dll
+D:\C-sharp folder\Bulky web MVC shazeel wala\BulkyWeb-MVC-main\BulkyWeb\obj\Debug\net8.0\BulkyWeb.sourcelink.json

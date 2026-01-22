@@ -33,3 +33,4 @@ D:\C-sharp folder\Bulky web MVC shazeel wala\BulkyWeb-MVC-main\Bulky.DataAccess\
 D:\C-sharp folder\Bulky web MVC shazeel wala\BulkyWeb-MVC-main\Bulky.DataAccess\obj\Debug\net8.0\Bulky.DataAccess.pdb
 D:\C-sharp folder\Bulky web MVC shazeel wala\BulkyWeb-MVC-main\Bulky.DataAccess\obj\Debug\net8.0\Bulky.DataAccess.genruntimeconfig.cache
 D:\C-sharp folder\Bulky web MVC shazeel wala\BulkyWeb-MVC-main\Bulky.DataAccess\obj\Debug\net8.0\ref\Bulky.DataAccess.dll
+D:\C-sharp folder\Bulky web MVC shazeel wala\BulkyWeb-MVC-main\Bulky.DataAccess\obj\Debug\net8.0\Bulky.DataAccess.sourcelink.json
