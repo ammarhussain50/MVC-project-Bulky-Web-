@@ -1,96 +1,99 @@
-﻿@model Bulky.Models.Product
+﻿@model ShoppingCart
 
-@{
-    ViewData["Title"] = "Product Details";
-}
+
 
 <form method="post">
-    <div class="container mt-5">
-        <div class="card shadow border-0 rounded p-4 border-top border-5">
-
+    <input hidden asp-for="ProductId" />
+    <div class="card shadow border-0 mt-4 mb-4">
+        <div class="card-header bg-secondary bg-gradient text-light py-4">
             <div class="row">
-
-                <!-- LEFT: Product Image + Back Button -->
-                <div class="col-md-4 d-flex flex-column justify-content-start align-items-center mb-3 mb-md-0">
-
-                    <!-- Back Button top-left inside column -->
-                    <div class="w-100 text-start mb-3">
-                        <a asp-area="Customer"
-                           asp-controller="Home"
-                           asp-action="Index"
-                           class="btn btn-outline-secondary btn-sm text-uppercase">
-                            <i class="bi bi-arrow-left me-1"></i> Back
+                <div class="col-12 text-center">
+                    <h3 class="text-white text-uppercase">@Model.Product.Title</h3>
+                    <p class="text-white-50 fw-semibold mb-0">by @Model.Product.Author</p>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="py-3">
+                <div class="row">
+                    <div class="col-6 col-md-2 offset-lg-1 pb-1">
+                        <a asp-action="Index" class="btn btn-outline-primary bg-gradient mb-5 fw-semibold btn-sm text-uppercase">
+                            <small>Back to home</small>
                         </a>
                     </div>
-
-                    <!-- Centered Product Image -->
-                    <div class="d-flex align-items-center justify-content-center h-100 w-100">
-                        <img src="@Model.ImageUrl"
-                             class="img-fluid rounded shadow-sm"
-                             alt="@Model.Title" />
-                    </div>
-
                 </div>
-
-                <!-- RIGHT: Product Details -->
-                <div class="col-md-8 d-flex flex-column justify-content-center">
-
-                    <!-- Title -->
-                    <h3 class="fw-bold text-dark">@Model.Title</h3>
-
-                    <!-- Author -->
-                    <p class="text-muted mb-2">by <span class="fw-semibold">@Model.Author</span></p>
-
-                    <!-- Category -->
-                    <!-- Category -->
-                    <span class="badge bg-secondary mb-3 ">
-                        @Model.Category.Name
-                    </span>
-
-
-                    <hr />
-
-                    <!-- Description -->
-                    <h5 class="fw-bold text-dark mb-2">Description</h5>
-                    <p class="text-dark">@Html.Raw(@Model.Description)</p>
-
-                    <!-- ISBN -->
-                    <p class="text-muted mb-2"><strong>ISBN:</strong> @Model.ISBN</p>
-
-                    <!-- Price Heading -->
-                    <div class="row text-center g-1 mt-3 fw-semibold text-secondary">
-                        <div class="col-3 col-md-3">Quantity</div>
-                        <div class="col-3 col-md-3">1-50</div>
-                        <div class="col-3 col-md-3">51-100</div>
-                        <div class="col-3 col-md-3">100+</div>
+                <div class="row">
+                    <div class="col-12 col-lg-3 offset-lg-1 text-center mb-3">
+                        <img src="@Model.Product.ImageUrl" width="100%" class="rounded" />
                     </div>
+                    <div class="col-12 col-lg-6 offset-lg-1">
 
-                    <!-- Pricing Section -->
-                    <div class="row text-center g-1 mt-1 fw-bold">
-                        <div class="col-3 col-md-3 text-dark">Price</div>
-                        <div class="col-3 col-md-3 text-warning">@Model.Price.ToString("c")</div>
-                        <div class="col-3 col-md-3 text-primary">@Model.Price50.ToString("c")</div>
-                        <div class="col-3 col-md-3 text-success">@Model.Price100.ToString("c")</div>
-                    </div>
-
-                    <!-- Count Input -->
-                    <div class="row mt-4 mb-3">
-                        <div class="col-md-4">
-                            <div class="input-group">
-                                <span class="input-group-text bg-primary text-white border-0 fw-semibold">
-                                    Count
+                        <div class="col-12 col-md-6 pb-4">
+                            <span class="badge">@Model.Product.Category.Name</span>
+                        </div>
+                        <div class="row ps-2">
+                            <h6 class="text-dark text-opacity-50 ">ISBN : @Model.Product.ISBN</h6>
+                        </div>
+                        <div class="row ps-2">
+                            <h6 class="text-dark text-opacity-50  pb-2">
+                                List Price:
+                                <span class="text-decoration-line-through">
+                                    @Model.Product.ListPrice.ToString("c")
                                 </span>
-                                <input type="number" value="1" class="form-control text-end" />
+                            </h6>
+                        </div>
+                        <div class="row text-center ps-2">
+                            <div class="p-1 col-3 col-lg-2 bg-white border-bottom">
+                                <div class="text-dark text-opacity-50 fw-semibold">Quantity</div>
+                            </div>
+                            <div class="p-1 col-3 col-lg-2 bg-white border-bottom">
+                                <div class="text-dark text-opacity-50 fw-semibold">1-50</div>
+                            </div>
+                            <div class="p-1 col-3 col-lg-2 bg-white border-bottom">
+                                <div class="text-dark text-opacity-50 fw-semibold">51-100</div>
+                            </div>
+                            <div class="p-1 col-3 col-lg-2 bg-white border-bottom">
+                                <div class="text-dark text-opacity-50 fw-semibold">100+</div>
                             </div>
                         </div>
-                    </div>
+                        <div class="row text-center ps-2">
+                            <div class="p-1 col-3 col-lg-2 bg-white text-warning fw-bold">
+                                <div>Price</div>
+                            </div>
+                            <div class="p-1 col-3 col-lg-2 bg-white text-warning fw-bold">
+                                <div>@Model.Product.Price.ToString("c")</div>
+                            </div>
+                            <div class="p-1 col-3 col-lg-2 bg-white text-warning fw-bold">
+                                <div>@Model.Product.Price50.ToString("c")</div>
+                            </div>
+                            <div class="p-1 col-3 col-lg-2 bg-white text-warning fw-bold">
+                                <div>@Model.Product.Price100.ToString("c")</div>
+                            </div>
+                        </div>
+                        <div class="row pl-2 my-3">
+                            <p class="text-secondary lh-sm">@Html.Raw(Model.Product.Description)</p>
+                        </div>
+                        <div class="row pl-2 mb-3">
+                            <div class="col-md-4">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text bg-primary text-white border-0 fw-semibold"
+                                          id="inputGroup-sizing-default">
+                                        Count
+                                    </span>
+                                    <input asp-for="Count" type="number" value="1" class="form-control text-end"
+                                           aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" />
 
-                    <!-- Add to Cart Button -->
-                    <div class="d-flex gap-2">
-                        <button type="submit" disabled
-                                class="btn btn-primary w-50">
-                            <i class="bi bi-cart-plus me-1"></i> Add to Cart (Coming Soon...)
-                        </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6 pb-1">
+                                <button type="submit"
+                                        class="btn btn-primary bg-gradient  w-100 py-2 text-uppercase fw-semibold">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
