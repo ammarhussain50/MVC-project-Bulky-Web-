@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QvVBcLi13BA=",
+  "dgSpecHash": "EDGwR86KO5Y=",
   "success": true,
   "projectFilePath": "D:\\C-sharp folder\\Bulky web MVC shazeel wala\\BulkyWeb-MVC-main\\BulkyWeb\\BulkyWeb.csproj",
   "expectedPackageFiles": [
@@ -138,6 +138,7 @@
     "C:\\Users\\AMMAR\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
     "C:\\Users\\AMMAR\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\AMMAR\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.6\\sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\AMMAR\\.nuget\\packages\\stripe.net\\50.2.0\\stripe.net.50.2.0.nupkg.sha512",
     "C:\\Users\\AMMAR\\.nuget\\packages\\system.clientmodel\\1.0.0\\system.clientmodel.1.0.0.nupkg.sha512",
     "C:\\Users\\AMMAR\\.nuget\\packages\\system.codedom\\5.0.0\\system.codedom.5.0.0.nupkg.sha512",
     "C:\\Users\\AMMAR\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",

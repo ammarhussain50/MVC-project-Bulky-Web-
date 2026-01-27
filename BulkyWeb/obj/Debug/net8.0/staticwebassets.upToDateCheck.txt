@@ -13,6 +13,7 @@ wwwroot\images\product\c75d2b50-b13c-4cc5-900d-92e54efdfb27.png
 wwwroot\images\product\d3b5bdb1-7b12-4741-b268-41ceb59386b1.jpg
 wwwroot\images\product\d469d4b0-5cc8-4aa3-83c5-258f964e532b.jpg
 wwwroot\images\product\f993365f-6847-4ac5-96f2-f5854f9bf3f5.jfif
+wwwroot\images\profile photo.jpg
 wwwroot\js\company.js
 wwwroot\js\product.js
 wwwroot\js\site.js
