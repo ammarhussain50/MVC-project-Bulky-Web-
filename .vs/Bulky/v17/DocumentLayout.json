@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "D:\\C-sharp folder\\Bulky web MVC shazeel wala\\BulkyWeb-MVC-main\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C717EE87-A5F3-4CA4-9CB1-B5C963F9EE5F}|BulkyWeb\\BulkyWeb.csproj|d:\\c-sharp folder\\bulky web mvc shazeel wala\\bulkyweb-mvc-main\\bulkyweb\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C717EE87-A5F3-4CA4-9CB1-B5C963F9EE5F}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D452E6EA-1505-48F0-B465-9340EFEBC340}|Bulky.Utility\\Bulky.Utility.csproj|d:\\c-sharp folder\\bulky web mvc shazeel wala\\bulkyweb-mvc-main\\bulky.utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D452E6EA-1505-48F0-B465-9340EFEBC340}|Bulky.Utility\\Bulky.Utility.csproj|solutionrelative:bulky.utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C717EE87-A5F3-4CA4-9CB1-B5C963F9EE5F}|BulkyWeb\\BulkyWeb.csproj|d:\\c-sharp folder\\bulky web mvc shazeel wala\\bulkyweb-mvc-main\\bulkyweb\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C717EE87-A5F3-4CA4-9CB1-B5C963F9EE5F}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C717EE87-A5F3-4CA4-9CB1-B5C963F9EE5F}|BulkyWeb\\BulkyWeb.csproj|d:\\c-sharp folder\\bulky web mvc shazeel wala\\bulkyweb-mvc-main\\bulkyweb\\wwwroot\\js\\order.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C717EE87-A5F3-4CA4-9CB1-B5C963F9EE5F}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\wwwroot\\js\\order.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C717EE87-A5F3-4CA4-9CB1-B5C963F9EE5F}|BulkyWeb\\BulkyWeb.csproj|d:\\c-sharp folder\\bulky web mvc shazeel wala\\bulkyweb-mvc-main\\bulkyweb\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C717EE87-A5F3-4CA4-9CB1-B5C963F9EE5F}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C717EE87-A5F3-4CA4-9CB1-B5C963F9EE5F}|BulkyWeb\\BulkyWeb.csproj|d:\\c-sharp folder\\bulky web mvc shazeel wala\\bulkyweb-mvc-main\\bulkyweb\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C717EE87-A5F3-4CA4-9CB1-B5C963F9EE5F}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90D02FD1-7C13-4D24-AA8E-7A15E01D0345}|Bulky.Models\\Bulky.Models.csproj|d:\\c-sharp folder\\bulky web mvc shazeel wala\\bulkyweb-mvc-main\\bulky.models\\orderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90D02FD1-7C13-4D24-AA8E-7A15E01D0345}|Bulky.Models\\Bulky.Models.csproj|solutionrelative:bulky.models\\orderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C717EE87-A5F3-4CA4-9CB1-B5C963F9EE5F}|BulkyWeb\\BulkyWeb.csproj|d:\\c-sharp folder\\bulky web mvc shazeel wala\\bulkyweb-mvc-main\\bulkyweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C717EE87-A5F3-4CA4-9CB1-B5C963F9EE5F}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C717EE87-A5F3-4CA4-9CB1-B5C963F9EE5F}|BulkyWeb\\BulkyWeb.csproj|d:\\c-sharp folder\\bulky web mvc shazeel wala\\bulkyweb-mvc-main\\bulkyweb\\wwwroot\\js\\order.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C717EE87-A5F3-4CA4-9CB1-B5C963F9EE5F}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\wwwroot\\js\\order.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90D02FD1-7C13-4D24-AA8E-7A15E01D0345}|Bulky.Models\\Bulky.Models.csproj|d:\\c-sharp folder\\bulky web mvc shazeel wala\\bulkyweb-mvc-main\\bulky.models\\viewmodels\\ordervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C717EE87-A5F3-4CA4-9CB1-B5C963F9EE5F}|BulkyWeb\\BulkyWeb.csproj|d:\\c-sharp folder\\bulky web mvc shazeel wala\\bulkyweb-mvc-main\\bulkyweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C717EE87-A5F3-4CA4-9CB1-B5C963F9EE5F}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90D02FD1-7C13-4D24-AA8E-7A15E01D0345}|Bulky.Models\\Bulky.Models.csproj|d:\\c-sharp folder\\bulky web mvc shazeel wala\\bulkyweb-mvc-main\\bulky.models\\orderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90D02FD1-7C13-4D24-AA8E-7A15E01D0345}|Bulky.Models\\Bulky.Models.csproj|solutionrelative:bulky.models\\orderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C717EE87-A5F3-4CA4-9CB1-B5C963F9EE5F}|BulkyWeb\\BulkyWeb.csproj|d:\\c-sharp folder\\bulky web mvc shazeel wala\\bulkyweb-mvc-main\\bulkyweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C717EE87-A5F3-4CA4-9CB1-B5C963F9EE5F}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D452E6EA-1505-48F0-B465-9340EFEBC340}|Bulky.Utility\\Bulky.Utility.csproj|d:\\c-sharp folder\\bulky web mvc shazeel wala\\bulkyweb-mvc-main\\bulky.utility\\stripesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -221,7 +221,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -229,56 +229,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrderVM.cs",
-              "DocumentMoniker": "D:\\C-sharp folder\\Bulky web MVC shazeel wala\\BulkyWeb-MVC-main\\Bulky.Models\\ViewModels\\OrderVM.cs",
-              "RelativeDocumentMoniker": "Bulky.Models\\ViewModels\\OrderVM.cs",
-              "ToolTip": "D:\\C-sharp folder\\Bulky web MVC shazeel wala\\BulkyWeb-MVC-main\\Bulky.Models\\ViewModels\\OrderVM.cs",
-              "RelativeToolTip": "Bulky.Models\\ViewModels\\OrderVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "SD.cs",
+              "DocumentMoniker": "D:\\C-sharp folder\\Bulky web MVC shazeel wala\\BulkyWeb-MVC-main\\Bulky.Utility\\SD.cs",
+              "RelativeDocumentMoniker": "Bulky.Utility\\SD.cs",
+              "ToolTip": "D:\\C-sharp folder\\Bulky web MVC shazeel wala\\BulkyWeb-MVC-main\\Bulky.Utility\\SD.cs",
+              "RelativeToolTip": "Bulky.Utility\\SD.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T10:45:07.954Z"
+              "WhenOpened": "2026-02-10T18:30:49.216Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\C-sharp folder\\Bulky web MVC shazeel wala\\BulkyWeb-MVC-main\\BulkyWeb\\Areas\\Admin\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "BulkyWeb\\Areas\\Admin\\Controllers\\OrderController.cs",
               "ToolTip": "D:\\C-sharp folder\\Bulky web MVC shazeel wala\\BulkyWeb-MVC-main\\BulkyWeb\\Areas\\Admin\\Controllers\\OrderController.cs",
               "RelativeToolTip": "BulkyWeb\\Areas\\Admin\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABsAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-30T10:26:22.383Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\C-sharp folder\\Bulky web MVC shazeel wala\\BulkyWeb-MVC-main\\BulkyWeb\\appsettings.json",
-              "RelativeDocumentMoniker": "BulkyWeb\\appsettings.json",
-              "ToolTip": "D:\\C-sharp folder\\Bulky web MVC shazeel wala\\BulkyWeb-MVC-main\\BulkyWeb\\appsettings.json",
-              "RelativeToolTip": "BulkyWeb\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-19T17:42:06.974Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "OrderHeader.cs",
               "DocumentMoniker": "D:\\C-sharp folder\\Bulky web MVC shazeel wala\\BulkyWeb-MVC-main\\Bulky.Models\\OrderHeader.cs",
               "RelativeDocumentMoniker": "Bulky.Models\\OrderHeader.cs",
               "ToolTip": "D:\\C-sharp folder\\Bulky web MVC shazeel wala\\BulkyWeb-MVC-main\\Bulky.Models\\OrderHeader.cs",
               "RelativeToolTip": "Bulky.Models\\OrderHeader.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAMwA0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T14:03:06.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\C-sharp folder\\Bulky web MVC shazeel wala\\BulkyWeb-MVC-main\\BulkyWeb\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "BulkyWeb\\Views\\Shared\\_Layout.cshtml",
@@ -290,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\C-sharp folder\\Bulky web MVC shazeel wala\\BulkyWeb-MVC-main\\BulkyWeb\\Areas\\Customer\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "BulkyWeb\\Areas\\Customer\\Controllers\\CartController.cs",
@@ -303,32 +292,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\C-sharp folder\\Bulky web MVC shazeel wala\\BulkyWeb-MVC-main\\BulkyWeb\\Areas\\Admin\\Views\\Order\\Index.cshtml",
               "RelativeDocumentMoniker": "BulkyWeb\\Areas\\Admin\\Views\\Order\\Index.cshtml",
               "ToolTip": "D:\\C-sharp folder\\Bulky web MVC shazeel wala\\BulkyWeb-MVC-main\\BulkyWeb\\Areas\\Admin\\Views\\Order\\Index.cshtml",
               "RelativeToolTip": "BulkyWeb\\Areas\\Admin\\Views\\Order\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADIAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-30T10:51:30.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "order.js",
               "DocumentMoniker": "D:\\C-sharp folder\\Bulky web MVC shazeel wala\\BulkyWeb-MVC-main\\BulkyWeb\\wwwroot\\js\\order.js",
               "RelativeDocumentMoniker": "BulkyWeb\\wwwroot\\js\\order.js",
               "ToolTip": "D:\\C-sharp folder\\Bulky web MVC shazeel wala\\BulkyWeb-MVC-main\\BulkyWeb\\wwwroot\\js\\order.js",
               "RelativeToolTip": "BulkyWeb\\wwwroot\\js\\order.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-30T11:01:15.161Z"
+              "WhenOpened": "2026-01-30T11:01:15.161Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "OrderVM.cs",
+              "DocumentMoniker": "D:\\C-sharp folder\\Bulky web MVC shazeel wala\\BulkyWeb-MVC-main\\Bulky.Models\\ViewModels\\OrderVM.cs",
+              "RelativeDocumentMoniker": "Bulky.Models\\ViewModels\\OrderVM.cs",
+              "ToolTip": "D:\\C-sharp folder\\Bulky web MVC shazeel wala\\BulkyWeb-MVC-main\\Bulky.Models\\ViewModels\\OrderVM.cs",
+              "RelativeToolTip": "Bulky.Models\\ViewModels\\OrderVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T10:45:07.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\C-sharp folder\\Bulky web MVC shazeel wala\\BulkyWeb-MVC-main\\BulkyWeb\\Program.cs",
               "RelativeDocumentMoniker": "BulkyWeb\\Program.cs",
